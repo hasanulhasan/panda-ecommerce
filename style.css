@@ -1,0 +1,11 @@
+.panda-btn{
+ color: white;
+ font-weight: bolder;
+ border: .1rem solid red;
+ background-color: rgba(251, 37, 144, 0.983);
+ border-radius: .4rem;
+ transition: all .3s linear;
+}
+.panda-btn:hover{
+  transform: scale(1.2);
+}
