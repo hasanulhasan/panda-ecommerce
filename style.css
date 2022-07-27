@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 .panda-btn{
  color: white;
  font-weight: bolder;
@@ -8,4 +11,7 @@
 }
 .panda-btn:hover{
   transform: scale(1.2);
+}
+section{
+  background-color: rgba(245, 245, 220, 0.575);
 }
