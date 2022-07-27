@@ -17,6 +17,7 @@
       font-family: 'Montserrat', sans-serif;
     }
     </style>
+    <link rel="icon" type="image/x-icon" href="icon/panda-bear.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,11 +27,11 @@
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <img src="images/logo.png" alt="">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -97,7 +98,7 @@
   <main>
     <!-- categories start here -->
   <section class="container pb-5">
-    <div class="row">
+    <div class="row row-cols-1 row-cols-lg-3 g-4">
       <div class="col">
         <div class="bg-warning rounded-3">
           <div class="d-flex justify-content-evenly align-items-center ps-4 ps-4 pb-4 py-4"><h1 class="text-white fw-bolder">Watch</h1>
@@ -122,7 +123,7 @@
 <!-- shoes item start here -->
 <section class="container pt-5" id="shoes">
   <h2 class="fw-bolder py-3">Shoes</h2>
-  <div class="row g-4">
+  <div class="row row-cols-1 row-cols-lg-3 g-4">
     <div class="col">
       <div class="card border-0">
         <div class="card-body shadow-lg">
@@ -162,7 +163,7 @@
 <!-- bag item start here -->
 <section class="container pt-5" id="backpack">
   <h2 class="fw-bolder py-3">Backpack</h2>
-  <div class="row g-4">
+  <div class="row row-cols-1 row-cols-lg-3 g-4">
     <div class="col">
       <div class="card border-0">
         <div class="card-body shadow-lg">
@@ -202,11 +203,11 @@
 <!-- service section start here -->
 <section class="container pt-5" id="services">
   <h2 class="fw-bolder py-3">Services</h2>
-  <div class="row">
+  <div class="row row-cols-1 row-cols-lg-3 g-4">
     <div class="col">
       <div class="card shadow-lg">
-        <div class="card-body d-flex justify-content-evenly">
-          <img src="icon/payment-method.png" alt="">
+        <div class="card-body d-flex justify-content-around">
+          <div><img src="icon/payment-method.png" alt=""></div>
           <div>
             <h5 class="fw-bold">Payment</h5>
             <p>Cash on Delivery avialable</p>
@@ -216,8 +217,8 @@
     </div>
     <div class="col">
       <div class="card shadow-lg">
-        <div class="card-body d-flex justify-content-evenly">
-          <img src="icon/support.png" alt="">
+        <div class="card-body d-flex justify-content-around">
+          <div><img src="icon/support.png" alt=""></div>
           <div>
           <h5 class="fw-bold">Support 24/7</h5>
           <p>Don't be hesitate to get our support</p>
@@ -227,8 +228,8 @@
     </div>
     <div class="col">
       <div class="card shadow-lg">
-        <div class="card-body d-flex justify-content-evenly">
-          <img src="icon/delivery-truck.png" alt="">
+        <div class="card-body d-flex justify-content-around">
+          <div><img src="icon/delivery-truck.png" alt=""></div>
           <div>
             <h5 class="fw-bold">Free Delivery</h5>
             <p>Every 1000+ purchase you get</p>
@@ -237,10 +238,7 @@
       </div>
     </div>
   </div>
-
 </section>
-
-
 <!-- service section end here -->
 <!-- subscribe start here -->
 <section class="container py-5" id="subscribe">
